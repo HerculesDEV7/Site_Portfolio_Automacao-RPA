@@ -1,0 +1,121 @@
+:root {
+    /* Cores principais */
+    --primary-bg: #1f2937; /* Fundo principal (cinza escuro) */
+    --secondary-bg: #111827; /* Fundo secundário (quase preto) */
+    --text-primary: #f3f4f6; /* Texto principal (cinza claro) */
+    --text-secondary: #d1d5db; /* Texto secundário (cinza médio) */
+    --accent: #06b6d4; /* Ciano para destaques */
+    --accent-hover: #0891b2; /* Ciano mais escuro para hover */
+    --border-accent: #06b6d4; /* Borda ciano */
+    --shadow-color: rgba(0, 0, 0, 0.3); /* Cor da sombra */
+  
+    /* Fontes */
+    --font-family: 'Fira Code', monospace;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-bg);
+    color: var(--text-primary);
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--primary-bg);
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  
+  /* Estilo para a foto na seção Hero */
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--border-accent);
+    box-shadow: 0 4px 6px var(--shadow-color);
+    margin: 0 auto 1.5rem;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(to bottom, var(--primary-bg), var(--secondary-bg));
+  }
+  
+  /* Botão "Ver meus projetos" */
+  .hero-button {
+    background-color: var(--accent);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: var(--accent-hover);
+  }
+  
+  /* Seções */
+  section {
+    padding: 4rem 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Habilidades e Projetos */
+  .bg-section-alt {
+    background-color: var(--primary-bg);
+  }
+  
+  .card {
+    background-color: var(--primary-bg);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  
+  /* Links de navegação e GitHub */
+  .nav-link {
+    color: var(--text-primary);
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--accent);
+  }
+  
+  .github-link {
+    color: var(--accent);
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+  }
+  
+  .github-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contato */
+  .contact-link {
+    color: var(--accent);
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--secondary-bg);
+    border-top: 1px solid #374151; /* Cinza escuro */
+    color: var(--text-secondary);
+    padding: 1.5rem 0;
+    text-align: center;
+  }

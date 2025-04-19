@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hercules DEV | Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <!-- Vinculando o arquivo style.css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50">
+      <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+        <h1 class="text-xl font-bold text-cyan-400">Hercules DEV</h1>
+        <nav class="space-x-6">
+          <a href="#sobre" class="nav-link">Sobre</a>
+          <a href="#habilidades" class="nav-link">Habilidades</a>
+          <a href="#projetos" class="nav-link">Projetos</a>
+          <a href="#contato" class="nav-link">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="min-h-screen flex items-center justify-center text-center px-6 pt-28 hero-section">
+      <div class="max-w-3xl">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Olá! Sou Hercules Santos Ferreira 👨‍💻</h2>
+        <img src="images/hercules-photo.jpg" alt="Foto de Hércules Santos Ferreira" class="profile-pic">
+        <p class="text-gray-300 text-lg md:text-xl mb-8">
+          Desenvolvedor iniciante apaixonado por tecnologia, automação de processos e programação com Python.
+        </p>
+        <a href="#projetos" class="hero-button">
+          Ver meus projetos
+        </a>
+      </div>
+    </section>
+
+    <!-- Sobre mim -->
+    <section id="sobre" class="max-w-4xl mx-auto">
+      <h3 class="section-title">Sobre mim</h3>
+      <p class="mb-4">
+        Tenho formação em Técnico Administrativo e, atualmente, estou cursando Análise e Desenvolvimento de Sistemas.
+      </p>
+      <p class="mb-4">
+        Frequentemente desenvolvo projetos pessoais relacionados à automação de processos, com o objetivo de adquirir experiência na solução de problemas de negócio e aprimorar meu domínio de ferramentas de RPA.
+      </p>
+      <p class="mb-4">
+        Estou em busca de uma oportunidade para atuar profissionalmente na minha área de especialização, contribuindo para a melhoria e para a otimização de processos repetitivos nas empresas — reduzindo custos tempo gasto com tarefas manuais e aumentando a precisão das informações.
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="bg-section-alt">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="section-title text-center">Habilidades</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h4 class="text-xl font-bold mb-2">Automação com Python</h4>
+            <ul class="list-disc ml-6 text-gray-300">
+              <li>PyAutoGUI (mouse e teclado)</li>
+              <li>Pandas (manipulação de dados)</li>
+              <li>Time (controle de tempo)</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold mb-2">Estudos complementares</h4>
+            <ul class="list-disc ml-6 text-gray-300">
+                <li>Machine Learning</li>
+                <li>Visualização de Dados</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="max-w-5xl mx-auto">
+      <h3 class="section-title">Projetos em Automação</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="card">
+          <img src="images/project-automation.png" alt="Projeto de Cadastro de Produtos Automatizado" class="rounded mb-4">
+          <h4 class="text-xl font-bold mb-2">Cadastro de Produtos Automatizado</h4>
+          <p class="text-gray-300 mb-4">
+            Automatização de preenchimento de formulário com dados lidos de um CSV, utilizando Python.
+          </p>
+          <p class="text-gray-400 mb-2">Tecnologias: Python, Pandas, PyAutoGUI, Time</p>
+          <a href="https://github.com/HerculesDEV7/automatizacao_preenchimento_formulario" target="_blank" class="github-link">
+            Ver no GitHub →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="bg-section-alt text-center">
+      <h3 class="section-title inline-block">Entre em contato</h3>
+      <p class="mb-4">Sinta-se à vontade para me chamar em qualquer uma das redes abaixo:</p>
+      <div class="space-y-2">
+        <p><strong>Email:</strong> <a href="mailto:hercules.tech.dev@gmail.com" class="contact-link">hercules.tech.dev@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hercules-santos-ferreira-7b6a69231/" target="_blank" class="contact-link">/hercules-santos-ferreira</a></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      © 2025 Hercules DEV. Todos os direitos reservados.
+    </footer>
+  </body>
+</html>
